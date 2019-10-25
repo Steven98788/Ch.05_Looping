@@ -11,15 +11,17 @@ cops=0
 gas=100
 print("You robbed a bank and the cops are following you.")
 print("The cars gas you stole is full.")
-print("YOu have 5 energy shots for the long road ahead.")
+print("You have 5 energy shots for the long road ahead.")
 print("Manage your energy and gas. Good luck")
 print()
-start=int(input("Click 0 to start"))
+start=int(input("Click 0 to start")) #Starts the game by conditioning 0 to make done = False
 print()
 if start==0:
     done=False #When done=False the game starts when done=True the game will stop
-
+import random
 while not done:
+    num=random.randrange(30,46)
+    cops+=num
     print("A. Take an energy shot")
     print("B. Ahead moderate speed")
     print("C. Ahead Full speed")

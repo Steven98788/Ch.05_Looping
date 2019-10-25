@@ -41,7 +41,7 @@ while not done:
         user+=1
     elif spr==3 and rps=="Paper":
         print("Paper you win")
-        user+1
+        user+=1
     if spr==1 and rps=="Rock":
         print("Rock tie")
         tie+=1
@@ -51,7 +51,7 @@ while not done:
     elif spr==3 and rps=="Scissors":
         print("Scissors tie")
         tie+=1
-    elif spr== "0":
+    elif spr== 0:
         done= True
         print("User score:",user)
         print("Computer score",com)
