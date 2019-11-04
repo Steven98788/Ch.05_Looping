@@ -30,10 +30,16 @@ for i in range(2,101,2):
      a WHILE loop, don't use a FOR loop.
 '''
 i=11
-while i >0:
+done=False
+while not done:
     i-=1
     print(i)
-print("Blast off!")
+    if i ==0:
+        done=True
+        print("Blast off!")
+
+
+
 
 
 
