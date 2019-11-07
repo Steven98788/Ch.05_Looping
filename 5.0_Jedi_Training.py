@@ -38,19 +38,8 @@ while not done:
         done=True
         print("Blast off!")
 
-
-
-
-
-
-
-
-
 # done = False
 # while not done:
-
-
-
 
 
 '''
